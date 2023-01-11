@@ -1,0 +1,8 @@
+django==3.2.16
+django-environ==0.9.0 #esto pone en secreto contrasenas por ejemplo
+django-cors-headers==3.13.0 #esto nos permite la comunicacion entre el frontend y bakend permite quien puede acceder alas rutas de las apis
+djangorestframework==3.14.0  #esto nos permite crear api con djngo
+pillow==9.3.0 #nos permite trabajar con imagenes
+django-storages==1.13.1 #nos permite guardar las imagens en aws soea archivos pesados los guardamos en aws ejemplo amason s3
+django-ckeditor==6.3.2 #es para crear contenido de manera mas rica ejemplo texto en negrita underline ect....
+psycopg2==2.9.5 #para trabajar con postre sql
